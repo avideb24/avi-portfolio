@@ -108,8 +108,16 @@ const sendEmail = () => {
     emailjs.send('service_zxe5yvf', 'template_pfxts57', params)
     .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
+        Swal.fire({
+            icon: "success",
+            title: "Message Sent!"
+          });
      }, function(error) {
         console.log('FAILED...', error);
+        Swal.fire({
+            icon: "error",
+            title: "Something Wrong Happen!"
+          });
      });
 }
 
