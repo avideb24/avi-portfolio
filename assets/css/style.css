@@ -277,25 +277,19 @@ a{
 }
 
 /*work*/
-.work-wrapper{
+.lan-wrapper{
     padding: 0 30px;
 }
-.work-bar h4{
+.lan-wrapper h2{
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.lan-wrapper h4{
     color: #f1ecec;
     font-size: 12px;
-    padding: 8px 0;
-}
-.work-bar .barfiller{
-    height: 7px;
-    margin-bottom: 0;
-    border-radius: 5px;
-}
-.work-bar .barfiller .tip{
-    margin-top: -26px;
-    color: #f1ecec;
-}
-.work-bar .barfiller .tip:after{
-    display: none;
+    font-weight: 400;
+    padding-top: 5px;
 }
 
 /********************Main Content************************/
