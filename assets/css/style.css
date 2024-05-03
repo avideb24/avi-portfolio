@@ -140,7 +140,7 @@ a{
 /*****profile*****/
 .profile-wrapper{
     text-align: center;
-    padding: 20px 0 20px 0;
+    padding: 15px 0 15px 0;
     border-bottom: 5px solid #191923;
 }
 .profile-wrapper .profile-image > img{
@@ -208,7 +208,7 @@ a{
 
 /*****address*****/
 .address-wrapper{
-    padding: 10px 0 15px 0;
+    padding: 10px 0 10px 0;
     margin: 0 25px;
     border-bottom: 3px solid #72727c;
 }
@@ -219,15 +219,16 @@ a{
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin: 8px 0;
+    margin: 4px 0;
+    font-style: normal;
 }
 .address-box h4{
     color: #f1ecec;
-    font-size: 15px;
+    font-size: 14px;
 }
 .address-box p{
     color: #72727c;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /*language*/
@@ -423,7 +424,7 @@ a{
 /* sevice animation */
 .floating{
     animation-name: floating;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
@@ -434,7 +435,7 @@ a{
 }
 .floating-2{
     animation-name: floating-2;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
@@ -573,6 +574,24 @@ a{
     display: none;
 }
 
+
+/* experience */
+.experience{
+    color: #fff;
+    padding: 10px 0 15px 0;
+    margin: 0 25px;
+    border-bottom: 3px solid #72727c;
+}
+.experience .workplace{
+    font-size: 14px;
+}
+.experience a{
+    color: #0984e3;
+}
+.experience p{
+    font-size: 12px;
+    margin-top: 5px;
+}
 
 /* education */
 .education{
